@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biodata</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/lagu.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">Ziyad</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto">
+
+        <li class="nav-item">
+          <a href="index.html" class="nav-link active">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="profil.html" class="nav-link">Profil</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="alamat.html" class="nav-link">Alamat</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="kampus.html" class="nav-link">Kampus</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="pendidikan.html" class="nav-link">Pendidikan</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="pengalaman.html" class="nav-link">Pengalaman</a>
+        </li>
+
+        <!-- DROPDOWN (ANAK MENU) -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+            Cerita
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="kunjungan.html">Kunjungan Industri</a></li>
+            <li><a class="dropdown-item" href="lebaran.html">Lebaran</a></li>
+            <li><a class="dropdown-item" href="kuliah.html">Kuliah</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a href="kontak.html" class="nav-link">Kontak</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="intro mt-3">
+  <h2 class="border bg-info border-3 rounded-4 p-4 shadow text-center">Momen Lebaran Bersama Keluarga</h2>
+</section>
+
+<!-- HERO / PROFIL -->
+<div class="container text-center mt-5">
+  <img src="fotoprofil/z.jpg" class="image-fluid w-100 rounded" alt="Foto Kunjungan Industri">
+</div>
+
+<section class="isi mt-4">
+  <div class="container">
+      <p class="fs-5">  Pada perayaan Idul Fitri tahun ini,saya memiliki pengalaman yang sangat berkesan bersama keluarga. Salah satu momen yang paling saya ingat adalah saat acara kumpul keluarga di rumah nenek.
+        Pada hari pertama Lebaran, setelah melaksanakan salat Id, saya dan keluarga langsung pergi ke rumah nenek. Di sana, seluruh anggota keluarga dari berbagai daerah berkumpul.
+        Rasanya tuh campur aduk antara haru, bahagia, dan sedikit "kacau" yang menyenangkan. Bayangin aja, rumah jadi penuh sesak sama om, tante, sepupu yang dari jauh datang berkumpul. Suara tawa, dan obrolan seru.Salah satu momen favoritku adalah saat semua kumpul di meja makan untuk hidangan Lebaran. Mulai dari ketupat, opor ayam, rendang, sampai kue-kue kering buatan nenek yang legendaris! Sambil makan, kita saling cerita kabar, nostalgia masa kecil, atau bahkan sedikit saling ledek yang bikin suasana makin cair.Terus, ada juga tradisi saling memaafkan yang selalu bikin hati adem. Walaupun mungkin ada sedikit salah paham atau khilaf sepanjang tahun, momen Lebaran ini jadi pengingat buat kita untuk saling mengikhlaskan dan memulai lagi dengan hati yang bersih. Pelukan hangat dari keluarga itu rasanya kayak energi positif yang ngalir ke seluruh tubuh.
+        Oh iya, jangan lupa juga sama momen "perburuan THR" dari om dan tante! Haha, walaupun udah gede, rasanya tetap senang kalau dapat rezeki nomplok gitu. Itu jadi semacam "hadiah" kecil dari mereka yang bikin kita merasa masih diperhatikan.
+      </p>
+  </div> 
+</section>
+
+<section class="Galeri">
+    <h2 class="text-center mt-5">Galeri Momen Lebaran</h2>
+    <div class="container mt-5 text-center">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="fotoprofil/photo_2026-04-18_19-06-28.jpg" alt="Foto 1" height="350px">
+                <img src="fotoprofil/kel.jpg" alt="Foto 2" height="350px">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- MUSIK -->
+<div class="music-player text-center mt-5">
+  <h4 class="mb-3"> <i class="fas fa-music"></i> Suasana Dihari Raya</h4>
+
+  <audio controls>
+    <source src="audio/leb.mp3" type="audio/mpeg">
+  </audio>
+</div>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center p-3 mt-5">
+  <p>© 2026 Muhammad Ziyad Cahyadi</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

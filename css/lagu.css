@@ -1,0 +1,17 @@
+
+.music-player {
+  padding: 20px;
+}
+
+.music-player audio {
+  width: 300px;
+  max-width: 100%;
+}
+.music-player {
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+  margin: 50px auto;
+  padding: 20px;
+}

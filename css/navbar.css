@@ -1,0 +1,32 @@
+.navbar {
+  list-style: none;
+  display: flex;
+    gap: 20px;
+}
+
+.navbbar li {
+    position: relative;
+}
+.navbar a {
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    background-color: #fff;
+    padding: 0;
+}
+
+.dropdown:hover .submenu {
+    display: block;
+}
+
+.submenu li a {
+    padding: 10px 20px;
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pengalaman Hidup</title>
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/navbar.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+body {
+  background: #dcdcdc;
+}
+
+/* CONTAINER */
+.pengalaman {
+  padding: 80px 0;
+}
+
+/* CARD */
+.pengalaman-card {
+  background: #000;
+  color: white;
+  padding: 25px;
+  border-radius: 20px;
+  height: 100%;
+  transition: 0.3s;
+}
+
+/* HOVER */
+.pengalaman-card:hover {
+  transform: translateY(-10px);
+}
+
+/* ICON */
+.pengalaman-card h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+</style>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">Ziyad</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto">
+
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="profil.html" class="nav-link">Profil</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="alamat.html" class="nav-link">Alamat</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="kampus.html" class="nav-link">Kampus</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="pendidikan.html" class="nav-link">Pendidikan</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="pengalaman.html" class="nav-link active">Pengalaman</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+            Cerita
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="kunjungan.html">Kunjungan Industri</a></li>
+            <li><a class="dropdown-item" href="lebaran.html">Lebaran</a></li>
+            <li><a class="dropdown-item" href="kuliah.html">Kuliah</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a href="kontak.html" class="nav-link">Kontak</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- JUDUL -->
+<div class="judul text-center mt-5">
+  <h1>Pengalaman Hidup</h1>
+</div>
+
+<!-- ISI -->
+<section class="pengalaman">
+  <div class="container">
+    <div class="row g-4 justify-content-center">
+
+      <!-- CARD 1 -->
+      <div class="col-md-4">
+        <div class="pengalaman-card">
+          <h2><i class="fas fa-school"></i> Masa SMK</h2>
+          <p>
+            Saat masih duduk di bangku SMK, saya memiliki banyak pengalaman berkesan,
+            salah satunya adalah Kunjungan Industri ke Kebun Teh di Bandung.
+            Perjalanan ke kebun teh itu bukan hanya sekadar memenuhi agenda sekolah, tetapi juga mengajarkan kami tentang keindahan kesederhanaan, dan kekuatan kebersamaan yang tidak bisa dilupakan.
+          </p>
+        </div>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="col-md-4">
+        <div class="pengalaman-card">
+          <h2><i class="fas fa-mosque"></i> Lebaran</h2>
+          <p>
+            Perayaan Idul Fitri menjadi salah satu momen paling bahagia dalam hidup saya.
+            Karena bisa berkumpul bersama keluarga besar di rumah Nenek, saling bermaaf-maafan,
+            serta menikmati makanan khas Lebaran  yang membuat suasana terasa berbeda dan sangat istimewa. Momen itu selalu saya tunggu-tunggu setiap tahunnya karena penuh kehangatan
+            
+          </p>
+        </div>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="col-md-4">
+        <div class="pengalaman-card">
+          <h2><i class="fas fa-graduation-cap"></i> Dunia Perkuliahan</h2>
+          <p>
+            Memasuki dunia perkuliahan terasa seperti memasuki dunia baru yang penuh tantangan.
+            Meskipun sempat ragu dan cemas, pengalaman kuliah memberikan banyak pelajaran berharga. Saat akhirnya masuk kuliah,
+            saya merasa seperti menemukan tempat yang tepat untuk berkembang, belajar, dan bertemu dengan orang-orang hebat. Melalui berbagai pengalaman di kampus,
+        
+        
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<footer class="bg-dark text-white text-center p-3 mt-5">
+  <p>© 2026 Muhammad Ziyad Cahyadi</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> 
+</body>
+</html>

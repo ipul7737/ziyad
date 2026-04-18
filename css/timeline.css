@@ -1,0 +1,56 @@
+
+body {
+  background: #fff;
+  color: #000;
+}
+
+/* WRAPPER */
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 50px auto;
+  padding-left: 40px;
+}
+
+/* ITEM */
+.timeline-item {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+/* DOT */
+.timeline-dot {
+  position: absolute;
+  left: -5px;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 10px;
+  z-index: 2;
+}
+
+/* BOX */
+.timeline-content {
+  background: #222;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* WARNA */
+.timeline-item:nth-child(1) .timeline-dot { background: #ff4d4d; }
+.timeline-item:nth-child(2) .timeline-dot { background: #4da6ff; }
+.timeline-item:nth-child(3) .timeline-dot { background: #33cc99; }
+.timeline-item:nth-child(4) .timeline-dot { background: #ffcc00; color:black; }
+.timeline-item:nth-child(5) .timeline-dot { background: #cc66ff; }
+
+/* HOVER */
+.timeline-content:hover {
+  transform: scale(1.03);
+  transition: 0.2s;
+}
